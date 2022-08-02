@@ -1,0 +1,240 @@
+/*************Responsive Styles*****************/
+/***************iPhone Portrait**************/
+@media only screen and (max-width: 479px) and (min-width: 320px) {
+	br {
+		display: none;
+	}
+
+	.container {
+		width: 98% !important;
+		max-width: 98% !important;
+	}
+
+	header .navbar .navbar-brand img {
+		width: 150px;
+		margin-left: 10px;
+	}
+
+	.navbar-toggler-icon {
+		height: 4px;
+		margin: 2px 0px;
+		background: #fff;
+		outline: none;
+	}
+
+	.navbar-toggler {
+		display: flex;
+		flex-direction: column;
+		border: none;
+		outline: none;
+		position: relative;
+		z-index: 999;
+	}
+
+	header .navbar {
+		padding: 20px 15px;
+	}
+
+	header .navbar-nav .nav-item .nav-link.nav-cta {
+		margin: auto;
+	}
+
+	header .navbar-nav .nav-item {
+		margin-bottom: 15px;
+	}
+
+	.box-layout-section .box-content {
+		position: relative;
+		width: 100%;
+	}
+
+	.navbar-collapse.collapse.show {
+		background: #040303;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		padding-top: 80px;
+	}
+
+	.banner-section .banner-form {
+		margin-top: 50px;
+	}
+
+	.img-layout-section img {
+		margin: 10px 0px;
+		height: auto;
+	}
+
+	.service-section p {
+		padding-bottom: 20px;
+	}
+
+	.layout-section .layout-content {
+		padding-left: 0px;
+		padding: 30px 0px;
+	}
+
+	.testimonial-slider button.slick-arrow {
+		left: 35%;
+	}
+
+	footer .copy-right {
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	footer .social-icons {
+		justify-content: center;
+	}
+}
+
+/**********************iPhone Landscape*************/
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+	br {
+		display: none;
+	}
+
+	.container {
+		width: 98% !important;
+		max-width: 98% !important;
+	}
+
+	header .navbar .navbar-brand img {
+		width: 150px;
+		margin-left: 10px;
+	}
+
+	.navbar-toggler-icon {
+		height: 4px;
+		margin: 2px 0px;
+		background: #fff;
+		outline: none;
+	}
+
+	.navbar-toggler {
+		display: flex;
+		flex-direction: column;
+		border: none;
+		outline: none;
+		position: relative;
+		z-index: 999;
+	}
+
+	header .navbar {
+		padding: 20px 15px;
+	}
+
+	header .navbar-nav .nav-item .nav-link.nav-cta {
+		margin: auto;
+	}
+
+	header .navbar-nav .nav-item {
+		margin-bottom: 15px;
+	}
+
+	.box-layout-section .box-content {
+		position: relative;
+		width: 100%;
+	}
+
+	.navbar-collapse.collapse.show {
+		background: #040303;
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		top: 0;
+		padding-top: 80px;
+	}
+
+	.banner-section .banner-form {
+		margin-top: 50px;
+	}
+
+	.img-layout-section img {
+		margin: 10px 0px;
+		height: auto;
+	}
+
+	.service-section p {
+		padding-bottom: 20px;
+	}
+
+	.layout-section .layout-content {
+		padding-left: 0px;
+		padding: 30px 0px;
+	}
+
+	.testimonial-slider button.slick-arrow {
+		left: 42%;
+	}
+
+	footer .copy-right {
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	footer .social-icons {
+		justify-content: center;
+	}
+}
+
+/*************************iPad Portrait***************/
+@media only screen and (max-width: 985px) and (min-width: 768px) {
+	.container {
+		width: 98% !important;
+		max-width: 98% !important;
+	}
+		header .navbar .navbar-brand img {
+		width: 150px;
+		margin-left: 10px;
+	}
+
+	.navbar-toggler-icon {
+		height: 4px;
+		margin: 2px 0px;
+		background: #fff;
+		outline: none;
+	}
+
+	.navbar-toggler {
+		display: flex;
+		flex-direction: column;
+		border: none;
+		outline: none;
+		position: relative;
+		z-index: 999;
+	}
+
+	header .navbar {
+		padding: 20px 15px;
+	}
+
+	header .navbar-nav .nav-item .nav-link.nav-cta {
+		margin: auto;
+	}
+
+	header .navbar-nav .nav-item {
+		margin-bottom: 15px;
+	}
+	.testimonial-slider button.slick-arrow {
+		left: 42%;
+	}
+
+}
+
+/**************iPad Landscape***************/
+@media only screen and (max-width: 1024px) and (min-width: 986px) {
+.container {
+		width: 98% !important;
+		max-width: 98% !important;
+	}	
+}
+@media only screen and (max-width: 1180px) and (min-width: 1025px) {
+.container {
+		width: 98% !important;
+		max-width: 98% !important;
+	}	
+}
+
+/*******************************************/
